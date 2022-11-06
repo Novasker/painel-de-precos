@@ -727,7 +727,7 @@ export default {
   color: var(--dl-color-gray-white);
   font-size: 25px;
 }
-@media(max-width: 1600px) {
+@media(max-width: 4000px) {
   .home-container01 {
     padding-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-halfunit);

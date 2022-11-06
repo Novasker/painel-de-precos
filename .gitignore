@@ -1,0 +1,6 @@
+.DS_Store
+.env
+node_modules
+PainelDePrecosBarcelos/FrontEnd/node_modules
+PainelDePrecosBarcelos/FrontEnd/.env
+PainelDePrecosBarcelos/FrontEnd/.DS_Store

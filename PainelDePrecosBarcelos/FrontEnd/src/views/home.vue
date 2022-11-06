@@ -34,8 +34,8 @@
         <div class="home-container07">
           <div class="home-container08">
             <img
-              src="/playground_assets/logo-200h.png"
               alt="image"
+              src="/playground_assets/logo-200h.png"
               class="home-image4"
             />
           </div>
@@ -167,17 +167,16 @@ export default {
   flex: 1;
   width: 100%;
   height: 100%;
-  margin: 0px;
   display: flex;
   position: relative;
   flex-wrap: wrap;
-  margin-top: var(--dl-space-space-halfunit);
+  align-self: center;
+  margin-top: 0px;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-halfunit);
+  margin-left: 0px;
   padding-top: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
   padding-right: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
   background-size: cover;
@@ -728,7 +727,7 @@ export default {
   color: var(--dl-color-gray-white);
   font-size: 25px;
 }
-@media(max-width: 4000px) {
+@media(max-width: 1600px) {
   .home-container01 {
     padding-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-halfunit);
@@ -736,7 +735,6 @@ export default {
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .home-container03 {
-    width: 100%;
     height: 150px;
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
@@ -852,7 +850,6 @@ export default {
 @media(max-width: 991px) {
   .home-container06 {
     width: 100%;
-    flex-wrap: wrap;
     align-self: flex-start;
     margin-right: var(--dl-space-space-halfunit);
     flex-direction: column;
